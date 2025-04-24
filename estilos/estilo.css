@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+*{
+    font-family: 'inter', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    letter-spacing: 1px;
+}
+.logo {
+    background-color:  #022038;
+    display: flex;
+    height: auto;
+    align-items: center;
+    justify-content: center;
+  }
+.link{
+    background-color: #000000;
+    border-radius: 12px;
+    border: 2px solid #000000;
+    color: white;
+    padding: 12px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    margin: 10px 10px 5px 10px;
+}
+.title{
+    display: flex;
+    padding: 10px;
+    font-size: 26px;
+    color: #000000
+
+}
+.para{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #030303;
+    padding: 10px;
+    width: 100%;
+}
+.footer_content{
+    color: #f5f5f5;
+    background-color: #181818;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    padding: 48px 56px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+}
+.footer_contacts h1{
+    margin-bottom: 12px;
+}
+.footer_social_media{
+    display: flex;
+    gap: 5px;
+    margin-top: 24px;
+    align-items: center;
+    text-align: left;
+}
+.footer_social_media{
+    height: 40px;
+    width: 40px;
+    color: #f5f5f5;
+    border-radius: 50%;
+    flex-direction: grid;
+    display: flex;
+}
+.footer-link{
+    height: 40px;
+    width: 40px;
+}
+.fa-facebook-f{
+    background-color: #4267b3;
+}
+.fa-whatsapp{
+    background-color: #25d366;
+}
+.footer_copyright{
+    position: absolute;
+    bottom: 0;
+    color: #f5f5f5;
+    padding: 20px 5px 5px 20px;
+}
+.form_gerar{
+    display: flex;
+    width: 50%;
+    height: 10%;
+    background-color: #022038;
+    color: #f5f5f5;
+    margin-bottom: 40px;
+    margin-top: 60px;
+    margin-left: 10px;
+    margin-right: 10px;
+    align-items: center;
+}
+.form_susgest{
+    display: flex;
+    width: auto;
+    height: auto;
+    background-color: #022038;
+    color: #f5f5f5;
+    margin-bottom: 40px;
+    margin-top: 60px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+label{
+    display: block;
+    text-align: center;
+}
+input{
+    width: 100%;
+    padding: 12px 20px;
+    margin-bottom: 20;
+    border-radius: 4px;
+}
+button{
+    background-color: #022038;
+    color: #f5f5f5;
+    padding: 14px 20px;
+    align-items: center;
+    border-radius: 4px;
+    height: fit-content;
+}
+button:hover{
+    background-color: #4267b3;
+}
+.fieldset{
+    display: flex;
+    width: 30%;
+    align-content: center;
+    align-items: center;
+}
